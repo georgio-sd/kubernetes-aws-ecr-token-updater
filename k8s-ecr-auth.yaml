@@ -10,6 +10,7 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: aws-token-updater
+    namespace: default
 roleRef:
   kind: ClusterRole
   name: cluster-admin
